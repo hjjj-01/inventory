@@ -18,6 +18,7 @@
         <div v-if="$route.path === '/YCadd'" class=""> <YCadd/></div>
         <div v-if="$route.path === '/YCsub'" class=""> <YCsub/></div>
         <div v-if="$route.path === '/YCadmin'" class=""> <YCadmin/></div>
+        
 
     </div>
 </template>
