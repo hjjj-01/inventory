@@ -9,6 +9,8 @@
         <div v-if="$route.path === '/subAdmin'" class=""> <suborderAdmin/></div>
         <div v-if="$route.path === '/subAdmin'" class=""> <suborderAdmin/></div>
         <div v-if="$route.path === '/excel'" class=""> <excelsheet/></div>
+        <div v-if="$route.path === '/HCinco'" class="commit"><HCinco/></div>
+        <div v-if="$route.path === '/HCincoadmin'"><HCincoad/></div>
         <div v-if="$route.path === '/HCcommit'" class="commit"><HCcommit/></div>
         <div v-if="$route.path === '/HCadmin'" class=""> <HCAdmin/></div>
         <div v-if="$route.path === '/YCcommit'" class=""> <YCcommit/></div>
@@ -36,6 +38,8 @@
     import YCadd from './component/YC/YCadd.vue'
     import YCsub from './component/YC/YCsub.vue'
     import YCadmin from './component/YCadmin.vue'
+    import HCinco from './component/HCinventoryCommit.vue'
+    import HCincoad from './component/HCinventoryAdmin.vue'
 
 
     const route = useRoute()
