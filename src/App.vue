@@ -18,6 +18,10 @@
         <div v-if="$route.path === '/YCadd'" class=""> <YCadd/></div>
         <div v-if="$route.path === '/YCsub'" class=""> <YCsub/></div>
         <div v-if="$route.path === '/YCadmin'" class=""> <YCadmin/></div>
+        <div v-if="$route.path === '/HCpdaCommit'" class="commit"><HCpdaCommit/></div>
+        <div v-if="$route.path === '/HCpdaAdmin'" ><HCpdaAdmin/></div>
+        <div v-if="$route.path === '/HCbagCommit'"><HCbagCommit/></div>
+        <div v-if="$route.path === '/HCbagAdmin'"><HCbagAdmin/></div>
         
 
     </div>
@@ -41,6 +45,10 @@
     import YCadmin from './component/YCadmin.vue'
     import HCinco from './component/HCinventoryCommit.vue'
     import HCincoad from './component/HCinventoryAdmin.vue'
+    import HCpdaCommit from './component/HCpdaCommit.vue'
+    import HCpdaAdmin from './component/HCpdaAdmin.vue'
+    import HCbagCommit from './component/HCbagCommit.vue'
+    import HCbagAdmin from './component/HCbagAdmin.vue'
 
 
     const route = useRoute()

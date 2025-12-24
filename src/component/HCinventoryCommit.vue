@@ -17,7 +17,7 @@
 <script setup>
     import { ref } from 'vue'
     import { ElMessage } from 'element-plus'
-import axios from 'axios'
+    import axios from 'axios'
 
     const commitData = ref({
         operator: localStorage.getItem('HCoperator') || '',
